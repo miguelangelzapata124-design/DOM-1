@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 16px;
+    background: #eef2f7;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+}
+
+h1 {
+    color: #174a7e;
+    margin-top: 18px;
+}
+
+h2 {
+    color: #2d5f8b;
+}
+
+p {
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 440px;
+    margin-top: 7px;
+    padding: 11px;
+    border: 1px solid #b8c4d1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #8bbce8;
+    border-color: #286ca8;
+}
+
+button {
+    padding: 11px 16px;
+    margin: 4px 5px 4px 0;
+    border: none;
+    border-radius: 6px;
+    background: #1769aa;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104d80;
+}
+
+a {
+    color: #1769aa;
+}
+
+.volver {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu {
+    padding-left: 22px;
+}
+
+.menu li {
+    margin: 14px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #c5ced8;
+    text-align: left;
+}
+
+th {
+    background: #1769aa;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background: #f2f6fa;
+}
+
+@media (max-width: 520px) {
+    .contenedor {
+        padding: 18px;
+    }
+
+    .botones button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

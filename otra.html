@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 5: Presupuesto de un evento</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="contenedor">
+    <a class="volver" href="index.html">&larr; Volver al inicio</a>
+    <h1>Ejercicio 5: Presupuesto de un evento</h1>
+    <form>
+      <p><label>Número de invitados: <input type="number" min="1" placeholder="Número de invitados"></label></p>
+      <p><label>Costo de comida por invitado: <input type="number" min="0" placeholder="Costo de comida por invitado"></label></p>
+      <p><label>Costo de bebida por invitado: <input type="number" min="0" placeholder="Costo de bebida por invitado"></label></p>
+      <p><label>Costo de decoración: <input type="number" min="0" placeholder="Costo de decoración"></label></p>
+      <p><label>Costo de música/animación: <input type="number" min="0" placeholder="Costo de música/animación"></label></p>
+      <p><label>Propina para el personal (%): <input type="number" min="0" placeholder="Propina para el personal (%)"></label></p>
+      <p><button type="button" onclick="calcularPresupuesto()">Calcular presupuesto</button></p>
+    </form>
+    <h2>Detalle del presupuesto</h2>
+    <div class="tabla-contenedor">
+      <table>
+        <thead><tr><th>Concepto</th><th>Valor</th></tr></thead>
+        <tbody>
+          <tr><td>Comida total</td><td></td></tr>
+          <tr><td>Bebida total</td><td></td></tr>
+          <tr><td>Decoración</td><td></td></tr>
+          <tr><td>Música/animación</td><td></td></tr>
+          <tr><td>Subtotal</td><td></td></tr>
+          <tr><td>Propina</td><td></td></tr>
+          <tr><td>Total general</td><td></td></tr>
+          <tr><td>Costo por invitado</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <script src="js/scrips.js"></script>
+</body>
+</html>

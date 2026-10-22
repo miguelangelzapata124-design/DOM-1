@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 2: Total de venta</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="contenedor">
+    <a class="volver" href="index.html">&larr; Volver al inicio</a>
+    <h1>Ejercicio 2: Calcular el total de una venta</h1>
+    <form>
+      <p><label>Nombre del producto: <input type="text" placeholder="Nombre del producto"></label></p>
+      <p><label>Cantidad: <input type="number" min="1" placeholder="Cantidad"></label></p>
+      <p><label>Precio unitario: <input type="number" min="0" placeholder="Precio unitario"></label></p>
+      <p><button type="button" onclick="calcularVenta()">Calcular</button></p>
+      <p><label>Subtotal: <input type="text" placeholder="Subtotal" readonly></label></p>
+      <p><label>IVA (19%): <input type="text" placeholder="IVA" readonly></label></p>
+      <p><label>Descuento: <input type="text" placeholder="Descuento" readonly></label></p>
+      <p><label>Total a pagar: <input type="text" placeholder="Total a pagar" readonly></label></p>
+    </form>
+  </main>
+  <script src="js/scrips.js"></script>
+</body>
+</html>
